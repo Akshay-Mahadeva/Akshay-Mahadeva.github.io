@@ -34,8 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
-$base-color-hover: darken($base-color, 20%);
+$base-color: #0f3046;
+$base-color-hover: darken($base-color, 8%);
 
 // Define background colors
 $background: #fff;
@@ -722,9 +722,44 @@ footer {
     }
 }
 
+
 /*
     -------------------------------
-    ----- 10. Contact Styles -----
+    ----- 10. tools Styles -----
+    -------------------------------
+*/
+
+#tools {
+    padding: 50px 15px;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
+
+/*
+    -------------------------------
+    ----- 11. Contact Styles -----
     -------------------------------
 */
 
